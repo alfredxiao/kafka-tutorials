@@ -1,0 +1,7 @@
+{
+    "outputs": [
+      {"topic": "all_songs", "key": null, "value": {"ARTIST": "Alfred", "TITLE": "My first rock song", "GENRE": "rock"}},
+      {"topic": "all_songs", "key": null, "value": {"ARTIST": "Cameron", "TITLE": "Functional Rocks", "GENRE": "rock"}},
+      {"topic": "all_songs", "key": null, "value": {"ARTIST": "Brian", "TITLE": "Silence Rocks", "GENRE": "classical"}}
+    ]
+  }
