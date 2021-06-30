@@ -1,0 +1,76 @@
+{
+    "inputs": [
+      {
+        "topic": "ratings",
+        "key": 1,
+        "value": {
+          "id": 294,
+          "rating": 8.2
+        }
+      },
+      {
+        "topic": "ratings",
+        "key": 2,
+        "value": {
+          "id": 294,
+          "rating": 8.5
+        }
+      },
+      {
+        "topic": "ratings",
+        "key": 3,
+        "value": {
+          "id": 354,
+          "rating": 9.9
+        }
+      },
+      {
+        "topic": "ratings",
+        "key": 4,
+        "value": {
+          "id": 354,
+          "rating": 9.7
+        }
+      },
+      {
+        "topic": "ratings",
+        "key": 5,
+        "value": {
+          "id": 782,
+          "rating": 7.8
+        }
+      },
+      {
+        "topic": "ratings",
+        "key": 6,
+        "value": {
+          "id": 782,
+          "rating": 7.7
+        }
+      },
+      {
+        "topic": "ratings",
+        "key": 7,
+        "value": {
+          "id": 128,
+          "rating": 8.7
+        }
+      },
+      {
+        "topic": "ratings",
+        "key": 8,
+        "value": {
+          "id": 128,
+          "rating": 8.4
+        }
+      },
+      {
+        "topic": "ratings",
+        "key": 9,
+        "value": {
+          "id": 780,
+          "rating": 2.1
+        }
+      }
+    ]
+  }
