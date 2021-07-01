@@ -30,6 +30,7 @@ import org.apache.kafka.streams.state.Stores;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.time.Duration;
+import java.time.Instant;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
@@ -87,10 +88,11 @@ public class KafkaStreamsPunctuation {
                         store.put(keyValue.key, 0L);
                     }
                 }
-                System.out.println("@" + new Date(timestamp) +" Reset all view-times to zero");
+                System.out.println("@" + new Date(timestamp) +" Reset all view-times to zero" + " " + Thread.currentThread().getName());
             }
 
             void streamTimePunctuator(Long timestamp) {
+                System.out.println("@" + Instant.now() + " running streamtime punctuator" + " " + Thread.currentThread().getName());
                 Long maxValue = Long.MIN_VALUE;
                 String maxValueKey = "";
                 try (KeyValueIterator<String, Long> iterator = store.all()) {
