@@ -82,3 +82,7 @@ LIMIT 11;
 # Observe output topic
 
 `PRINT rating_count FROM BEGINNING LIMIT 11;`
+
+# NOTE
+
+note that records (windowed result) in the output topic might be removed due to retention period exiry, as by default window retention is 1 day and we input data with old timestamp
