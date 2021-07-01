@@ -1,0 +1,44 @@
+{
+    "outputs": [
+      {
+        "topic": "customers_by_area_code",
+        "key": "614",
+        "value": {
+          "ID": 123,
+          "FIRSTNAME": "alfred",
+          "LASTNAME": "xiao",
+          "PHONENUMBER": "614-551-1272"
+        }
+      },
+      {
+        "topic": "customers_by_area_code",
+        "key": "833",
+        "value": {
+          "ID": 124,
+          "FIRSTNAME": "brian",
+          "LASTNAME": "harper",
+          "PHONENUMBER": "833-222-1272"
+        }
+      },
+      {
+        "topic": "customers_by_area_code",
+        "key": "614",
+        "value": {
+          "ID": 125,
+          "FIRSTNAME": "cameron",
+          "LASTNAME": "sharri",
+          "PHONENUMBER": "614-333-1272"
+        }
+      },
+      {
+        "topic": "customers_by_area_code",
+        "key": "833",
+        "value": {
+          "ID": 126,
+          "FIRSTNAME": "derek",
+          "LASTNAME": "jensen",
+          "PHONENUMBER": "833-444-1272"
+        }
+      }
+    ]
+  }

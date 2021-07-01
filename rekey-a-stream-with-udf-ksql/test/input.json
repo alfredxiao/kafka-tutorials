@@ -1,0 +1,40 @@
+{
+    "inputs": [
+      {
+        "topic": "customers",
+        "key": 123,
+        "value": {
+          "firstname": "alfred",
+          "lastname": "xiao",
+          "phonenumber": "614-551-1272"
+        }
+      },
+      {
+        "topic": "customers",
+        "key": 124,
+        "value": {
+          "firstname": "brian",
+          "lastname": "harper",
+          "phonenumber": "833-222-1272"
+        }
+      },
+      {
+        "topic": "customers",
+        "key": 125,
+        "value": {
+          "firstname": "cameron",
+          "lastname": "sharri",
+          "phonenumber": "614-333-1272"
+        }
+      },
+      {
+        "topic": "customers",
+        "key": 126,
+        "value": {
+          "firstname": "derek",
+          "lastname": "jensen",
+          "phonenumber": "833-444-1272"
+        }
+      }
+    ]
+  }
