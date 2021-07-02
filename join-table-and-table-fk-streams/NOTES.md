@@ -12,10 +12,10 @@
 # Load some input data (on album)
 ```
 docker exec -i schema-registry /usr/bin/kafka-avro-console-producer --topic albums --bootstrap-server broker:9092 \
---property "parse.key=true"\
---property 'key.schema={"type":"long"}'\
---property "key.separator=:"\
---property value.schema="$(< src/main/avro/album.avsc)"
+  --property "parse.key=true"\
+  --property 'key.schema={"type":"long"}'\
+  --property "key.separator=:"\
+  --property value.schema="$(< src/main/avro/album.avsc)"
 ```
 ```
 5:{"id": 5, "title": "Physical Graffiti", "artist": "Led Zeppelin", "genre": "Rock"}
@@ -54,6 +54,21 @@ docker exec -i schema-registry /usr/bin/kafka-avro-console-producer --topic purc
 {"id": "8-104", "genre": "Rap rock", "artist": "Run-D.M.C"}
 {"id": "6-105", "genre": "Rock", "artist": "AC/DC"}
 {"id": "5-106", "genre": "Rock", "artist": "Led Zeppelin"}
+```
+
+# Topics created 
+```
+kafka-topics --bootstrap-server localhost:29092 --list
+__consumer_offsets
+_schemas
+albums
+fk-joining-app-KTABLE-FK-JOIN-SUBSCRIPTION-REGISTRATION-0000000006-topic
+fk-joining-app-KTABLE-FK-JOIN-SUBSCRIPTION-RESPONSE-0000000014-topic
+fk-joining-app-KTABLE-FK-JOIN-SUBSCRIPTION-STATE-STORE-0000000010-changelog
+fk-joining-app-albums-STATE-STORE-0000000000-changelog
+fk-joining-app-purchases-STATE-STORE-0000000003-changelog
+music-interest
+purchases
 ```
 
 # Test it 
