@@ -84,6 +84,7 @@ _orders
 _schemas
 _shipments
 ```
+**NOTE** reason why `Join-right-repartition` is created is because the right (shipments) was keyed by shipment-id, not order-id, so need to repartition it to be by order-id
 
 # Run test 
 `docker exec ksqldb-cli ksql-test-runner -i /opt/app/test/input.json -s /opt/app/src/statements.sql -o /opt/app/test/output.json`
